@@ -4,6 +4,9 @@ all:
 build:
     npm run build
 
+live:
+    npm run live
+
 clean:
     rm -r ./out
 

@@ -5,7 +5,7 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <meta name="description" content="Devlog about Project Pineview the videogame" />
-                <link rel="icon" href="/favicon.png" />
+                <link rel="icon" href="/next-project-pineview/favicon.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                 <link

@@ -72,7 +72,7 @@ function Post({ title, imageSrc, imageAlt, imageWidth, imageHeight, date, priori
         <div className={styles.post}>
             {title && <h3>{title}</h3>}
             {date && <p className={styles.meta}>posted: {date}</p>}
-            <Image src={imageSrc} alt={imageAlt} width={imageWidth} height={imageHeight} priority={priority} />
+            <Image src={`/next-project-pineview${imageSrc}`} alt={imageAlt} width={imageWidth} height={imageHeight} priority={priority} />
             <div>{children}</div>
             <hr className={styles.postDivider} />
         </div>

@@ -1,2 +1,3 @@
 # next-project-pineview
-Something something my homework using nextjs and github pages.
+
+Something something this is my homework project using NextJS and static pages.

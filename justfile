@@ -1,0 +1,11 @@
+all:
+    @echo "Nothing to do for all"
+
+build:
+    npm run build
+
+clean:
+    rm -r ./out
+
+clean-deep:
+    rm -r ./out ./node_modules ./.next

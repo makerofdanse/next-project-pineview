@@ -1,0 +1,39 @@
+.nav {
+    background-color: var(--header-bg);
+    margin: 16px 0;
+    padding: 8px 0;
+    display: flex;
+    justify-content: left;
+}
+
+.navList {
+    list-style: none;
+    margin: 0;
+    padding: 0 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navItem {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+.navItem a {
+    color: var(--text-primary);
+    text-decoration: underline;
+}
+
+.navItem a:hover {
+    color: var(--accent);
+}
+
+.inactive a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    cursor: default;
+}
+.inactive a:hover {
+    color: var(--text-secondary);
+}

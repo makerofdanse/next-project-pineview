@@ -1,3 +1,35 @@
+:root {
+    --bg-primary: #1a1a1a;
+    --main-bg: rgba(26, 26, 26, 0.85);
+    --header-bg: rgba(26, 26, 26, 0.8);
+
+    --text-primary: #e0e0e0;
+    --text-secondary: #888;
+
+    --accent: #00ff88;
+}
+
+html,
 body {
-    background-color: pink;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    position: sticky;
+    /* top: 16px; */
+    top: 0;
+}
+
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-primary);
+    background-image: url("/media/background.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

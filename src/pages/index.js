@@ -12,7 +12,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div>
-                <main>Hello, World!</main>
+                <main>Hello, World! I love linux.</main>
                 <footer></footer>
             </div>
         </>

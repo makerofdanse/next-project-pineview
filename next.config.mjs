@@ -2,7 +2,6 @@
 const nextConfig = {
     output: "export",
     trailingSlash: true,
-    basePath: "/next-project-pineview",
     images: {
         unoptimized: true,
     },

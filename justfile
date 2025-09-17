@@ -7,6 +7,9 @@ build:
 live:
     npm run live
 
+dev:
+    npm run dev
+
 clean:
     rm -r ./out
 
